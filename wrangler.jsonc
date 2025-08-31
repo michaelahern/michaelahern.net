@@ -2,6 +2,17 @@
   "name": "michaelahern",
   "compatibility_date": "2025-08-15",
   "assets": {
-    "directory": "./public/"
-  }
+    "directory": "./public/",
+    "not_found_handling": "404-page"
+  },
+  "routes": [
+    {
+      "pattern": "michaelahern.net",
+      "custom_domain": true
+    },
+    {
+      "pattern": "www.michaelahern.net",
+      "custom_domain": true
+    }
+  ]
 }
