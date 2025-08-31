@@ -1,0 +1,7 @@
+{
+  "name": "michaelahern-test",
+  "compatibility_date": "2025-08-15",
+  "assets": {
+    "directory": "./public/"
+  }
+}
