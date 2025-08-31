@@ -28,6 +28,7 @@ pre {
     color: #fff;
     font-family: "TX-02", monospace;
     font-size: 2rem;
+    font-weight: 300;
     margin: 0;
     max-width: 1000px;
     padding: 2rem;
@@ -45,4 +46,13 @@ code {
     background-color: #000;
     color: #fff;
     font-family: "TX-02", monospace;
+}
+
+a, a:active, a:visited {
+    color: white; 
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ccc;
 }
