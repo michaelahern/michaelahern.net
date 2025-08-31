@@ -1,0 +1,48 @@
+@font-face {
+    font-family: "TX-02";
+    src: url("TX-02-Variable.woff2") format("woff2");
+}
+
+html {
+    font-family: "TX-02", monospace;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: grid;
+    place-items: center;
+    width: 100vw;
+}
+
+pre {
+    background-color: #000;
+    color: #fff;
+    font-family: "TX-02", monospace;
+    font-size: 2rem;
+    margin: 0;
+    max-width: 1000px;
+    padding: 2rem;
+    width: 90vw;
+}
+
+@media (max-width: 600px) {
+    pre {
+        font-size: 1.2rem;
+        padding: 1rem;
+    }
+}
+
+code {
+    background-color: #000;
+    color: #fff;
+    font-family: "TX-02", monospace;
+}
