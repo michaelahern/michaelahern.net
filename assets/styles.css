@@ -35,54 +35,83 @@ pre {
     width: 90vw;
 }
 
+pre header .mountain {
+    letter-spacing: -1px;
+}
+
+pre footer {
+    font-size: 1rem;
+}
+
 @media (max-width: 600px) {
     pre {
-        font-size: 1.2rem;
         padding: 1rem;
+    }
+    pre header {
+        font-size: 1.8rem;
+    }
+    pre main {
+        font-size: 1.2rem;
     }
 }
 
-code {
-    background-color: #000;
-    font-family: "TX-02", monospace;
-}
-
-code.amber, code.amber a, code.amber a:active, code.amber a:visited, #selectAmber {
-    color: #ffb000
-}
-
-code.amber a:hover {
-    color: #cc9000
-}
-
-code.green, code.green a, code.green a:active, code.green a:visited, #selectGreen {
-    color: #33ff66
-}
-
-code.green a:hover {
-    color: #00cc33
-}
-
-code.blue, code.blue a, code.blue a:active, code.blue a:visited, #selectBlue {
-    color: #99ddff
-}
-
-code.blue a:hover {
-    color: #66aacc
-}
-
-code.white, code.white a, code.white a:active, code.white a:visited, #selectWhite {
-    color: #ffffff;
-}
-
-code.white a:hover {
-    color: #cccccc;
-}
-
 a, a:active, a:hover, a:visited {
+    cursor: pointer;
     text-decoration: none;
 }
 
-a[role="button"] {
-    cursor: pointer;
+pre.white, pre.white a, pre.white a:active, pre.white a:visited, #white {
+    color: #fff;
+}
+
+pre.white a:hover {
+    color: #ccc;
+}
+
+pre.blue, pre.blue a, pre.blue a:active, pre.blue a:visited, #blue {
+    color: #9df;
+}
+
+pre.blue a:hover {
+    color: #6ac;
+}
+
+pre.green, pre.green a, pre.green a:active, pre.green a:visited, #green {
+    color: #6f6;
+}
+
+pre.green a:hover {
+    color: #3c3;
+}
+
+pre.amber, pre.amber a, pre.amber a:active, pre.amber a:visited, #amber {
+    color: #ffb400;
+}
+
+pre.amber a:hover {
+    color: #cc8100;
+}
+
+pre.rgb-red, pre.rgb-red a, pre.rgb-red a:active, pre.rgb-red a:visited, #rgb-red {
+    color: #f00;
+}
+
+pre.rgb-red a:hover {
+    color: #c00;
+}
+
+pre.rgb-green, pre.rgb-green a, pre.rgb-green a:active, pre.rgb-green a:visited, #rgb-green {
+    color: #0f0;
+}
+
+pre.rgb-green a:hover {
+    color: #0c0;
+}
+
+pre.rgb-blue, pre.rgb-blue a, pre.rgb-blue a:active, pre.rgb-blue a:visited, #rgb-blue {
+    color: #00f;
+}
+
+pre.rgb-blue a:hover {
+    color: #00c;
 }
