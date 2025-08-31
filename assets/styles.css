@@ -44,15 +44,45 @@ pre {
 
 code {
     background-color: #000;
-    color: #fff;
     font-family: "TX-02", monospace;
 }
 
-a, a:active, a:visited {
-    color: white; 
+code.amber, code.amber a, code.amber a:active, code.amber a:visited, #selectAmber {
+    color: #ffb000
+}
+
+code.amber a:hover {
+    color: #cc9000
+}
+
+code.green, code.green a, code.green a:active, code.green a:visited, #selectGreen {
+    color: #33ff66
+}
+
+code.green a:hover {
+    color: #00cc33
+}
+
+code.blue, code.blue a, code.blue a:active, code.blue a:visited, #selectBlue {
+    color: #99ddff
+}
+
+code.blue a:hover {
+    color: #66aacc
+}
+
+code.white, code.white a, code.white a:active, code.white a:visited, #selectWhite {
+    color: #ffffff;
+}
+
+code.white a:hover {
+    color: #cccccc;
+}
+
+a, a:active, a:hover, a:visited {
     text-decoration: none;
 }
 
-a:hover {
-    color: #ccc;
+a[role="button"] {
+    cursor: pointer;
 }

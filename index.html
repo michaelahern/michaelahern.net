@@ -10,7 +10,8 @@
     </head>
     <body>
         <div class="container">
-            <pre><code>MICHAEL AHERN  ▂▄▆█▆▄▂
+            <pre><code id="code" class="white">MICHAEL AHERN  <span style="letter-spacing: -1px;">▂▄▆█▆▄▂</span>
+<a id="selectWhite" role="button">■</a> <a id="selectBlue" role="button">■</a> <a id="selectGreen" role="button">■</a> <a id="selectAmber" role="button">■</a>
 
 ENGINEER/
 ├─ #CLOUD
@@ -22,5 +23,23 @@ CONNECT/
 
 <span style="font-size: 1rem">© 2025 MICHAEL AHERN</span></code></pre>
         </div>
+
+        <script>
+            document.getElementById('selectWhite').onclick = function() {
+                document.getElementsByTagName('code')[0].className = 'white';
+            };
+
+            document.getElementById('selectBlue').onclick = function() {
+                document.getElementsByTagName('code')[0].className = 'blue';
+            };
+
+            document.getElementById('selectAmber').onclick = function() {
+                document.getElementsByTagName('code')[0].className = 'amber';
+            };
+
+            document.getElementById('selectGreen').onclick = function() {
+                document.getElementsByTagName('code')[0].className = 'green';
+            };
+        </script>
     </body>
 </html>
