@@ -35,13 +35,17 @@ pre {
   width: 90vw;
 }
 
-pre header,
-pre main {
+pre header {
+  font-size: 2.5rem;
   line-height: 1.2;
 }
 
 pre header .mountain {
   letter-spacing: -1px;
+}
+
+pre main {
+  line-height: 1.2;
 }
 
 pre footer {
@@ -59,7 +63,7 @@ pre footer {
   }
 
   pre main {
-    font-size: 1.2rem;
+    font-size: 1.25rem;
   }
 
   pre footer {
