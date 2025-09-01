@@ -63,17 +63,17 @@ pre footer {
 
 a,
 a:active,
-a:hover,
-a:visited {
+a:visited,
+a:hover {
   cursor: pointer;
   text-decoration: none;
 }
 
+#white,
 pre.white,
 pre.white a,
 pre.white a:active,
-pre.white a:visited,
-#white {
+pre.white a:visited {
   color: #fff;
 }
 
@@ -81,11 +81,11 @@ pre.white a:hover {
   color: #ccc;
 }
 
+#blue,
 pre.blue,
 pre.blue a,
 pre.blue a:active,
-pre.blue a:visited,
-#blue {
+pre.blue a:visited {
   color: #9df;
 }
 
@@ -93,11 +93,11 @@ pre.blue a:hover {
   color: #6ac;
 }
 
+#green,
 pre.green,
 pre.green a,
 pre.green a:active,
-pre.green a:visited,
-#green {
+pre.green a:visited {
   color: #6f6;
 }
 
@@ -105,11 +105,11 @@ pre.green a:hover {
   color: #3c3;
 }
 
+#amber,
 pre.amber,
 pre.amber a,
 pre.amber a:active,
-pre.amber a:visited,
-#amber {
+pre.amber a:visited {
   color: #ffb400;
 }
 
@@ -117,11 +117,11 @@ pre.amber a:hover {
   color: #cc8100;
 }
 
+#rgb-red,
 pre.rgb-red,
 pre.rgb-red a,
 pre.rgb-red a:active,
-pre.rgb-red a:visited,
-#rgb-red {
+pre.rgb-red a:visited {
   color: #f00;
 }
 
@@ -129,11 +129,11 @@ pre.rgb-red a:hover {
   color: #c00;
 }
 
+#rgb-green,
 pre.rgb-green,
 pre.rgb-green a,
 pre.rgb-green a:active,
-pre.rgb-green a:visited,
-#rgb-green {
+pre.rgb-green a:visited {
   color: #0f0;
 }
 
@@ -141,11 +141,11 @@ pre.rgb-green a:hover {
   color: #0c0;
 }
 
+#rgb-blue,
 pre.rgb-blue,
 pre.rgb-blue a,
 pre.rgb-blue a:active,
-pre.rgb-blue a:visited,
-#rgb-blue {
+pre.rgb-blue a:visited {
   color: #00f;
 }
 
