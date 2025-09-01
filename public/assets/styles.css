@@ -51,10 +51,11 @@ pre footer {
 @media (max-width: 600px) {
   pre {
     padding: 1rem;
+    width: 100vw;
   }
 
   pre header {
-    font-size: 1.7rem;
+    font-size: 1.75rem;
   }
 
   pre main {
@@ -62,7 +63,7 @@ pre footer {
   }
 
   pre footer {
-    font-size: .85rem;
+    font-size: .9rem;
   }
 }
 
