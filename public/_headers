@@ -1,10 +1,13 @@
 /*
   Cache-Control: public, max-age=3600
   Content-Security-Policy: default-src 'self'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; object-src 'none'; upgrade-insecure-requests;
+  Cross-Origin-Embedder-Policy: require-corp
+  Cross-Origin-Opener-Policy: same-origin
+  Cross-Origin-Resource-Policy: same-origin
+  Permissions-Policy: bluetooth=(), camera=(), display-capture=(), geolocation=(), microphone=(), serial=(), payment=(), usb=()
   Referrer-Policy: strict-origin-when-cross-origin
   X-Content-Type-Options: nosniff
   X-Frame-Options: DENY
-  X-XSS-Protection: 1; mode=block
 
 https://:worker.:subdomain.workers.dev/*
   X-Robots-Tag: noindex
