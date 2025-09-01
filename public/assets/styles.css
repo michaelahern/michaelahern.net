@@ -51,6 +51,7 @@ pre main {
 }
 
 pre main img {
+  display: none;
   max-width: 80%;
   padding: 20px;
 }
