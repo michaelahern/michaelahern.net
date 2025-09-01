@@ -35,6 +35,11 @@ pre {
   width: 90vw;
 }
 
+pre header,
+pre main {
+  line-height: 1.2;
+}
+
 pre header .mountain {
   letter-spacing: -1px;
 }
