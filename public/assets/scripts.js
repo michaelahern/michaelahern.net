@@ -25,3 +25,8 @@ document.getElementById('rgb-green').onclick = function () {
 document.getElementById('rgb-blue').onclick = function () {
   document.getElementsByTagName('pre')[0].className = 'rgb-blue';
 };
+
+document.getElementById('slopes').onclick = function () {
+  const img = document.getElementById('slopes-img');
+  img.style.display = img.style.display === 'none' ? 'inline' : 'none';
+};

@@ -50,8 +50,9 @@ pre main {
   margin-bottom: -1rem;
 }
 
-pre footer {
-  font-size: 1rem;
+pre main img {
+  max-width: 80%;
+  padding: 20px;
 }
 
 @media (max-width: 600px) {
