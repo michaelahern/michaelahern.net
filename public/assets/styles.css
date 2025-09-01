@@ -1,120 +1,154 @@
 @font-face {
-    font-family: "TX-02";
-    src: url("TX-02-Variable.woff2") format("woff2");
+  font-family: "TX-02";
+  src: url("TX-02-Variable.woff2") format("woff2");
 }
 
 html {
-    font-family: "TX-02", monospace;
-    margin: 0;
-    padding: 0;
-    scroll-behavior: smooth;
+  font-family: "TX-02", monospace;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
 }
 
 body {
-    background-color: #000;
-    color: #fff;
-    margin: 0;
-    padding: 0;
+  background-color: #000;
+  color: #fff;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
-    display: grid;
-    place-items: center;
-    width: 100vw;
+  display: grid;
+  place-items: center;
+  width: 100vw;
 }
 
 pre {
-    background-color: #000;
-    color: #fff;
-    font-family: "TX-02", monospace;
-    font-size: 2rem;
-    font-weight: 300;
-    margin: 0;
-    max-width: 800px;
-    padding: 2rem;
-    width: 90vw;
+  background-color: #000;
+  color: #fff;
+  font-family: "TX-02", monospace;
+  font-size: 2rem;
+  font-weight: 300;
+  margin: 0;
+  max-width: 800px;
+  padding: 2rem;
+  width: 90vw;
 }
 
 pre header .mountain {
-    letter-spacing: -1px;
+  letter-spacing: -1px;
 }
 
 pre footer {
-    font-size: 1rem;
+  font-size: 1rem;
 }
 
 @media (max-width: 600px) {
-    pre {
-        padding: 1rem;
-    }
-    pre header {
-        font-size: 1.75rem;
-    }
-    pre main {
-        font-size: 1.2rem;
-    }
-    pre footer {
-        font-size: .9rem;
-    }
+  pre {
+    padding: 1rem;
+  }
+
+  pre header {
+    font-size: 1.75rem;
+  }
+
+  pre main {
+    font-size: 1.2rem;
+  }
+
+  pre footer {
+    font-size: .9rem;
+  }
 }
 
-a, a:active, a:hover, a:visited {
-    cursor: pointer;
-    text-decoration: none;
+a,
+a:active,
+a:hover,
+a:visited {
+  cursor: pointer;
+  text-decoration: none;
 }
 
-pre.white, pre.white a, pre.white a:active, pre.white a:visited, #white {
-    color: #fff;
+pre.white,
+pre.white a,
+pre.white a:active,
+pre.white a:visited,
+#white {
+  color: #fff;
 }
 
 pre.white a:hover {
-    color: #ccc;
+  color: #ccc;
 }
 
-pre.blue, pre.blue a, pre.blue a:active, pre.blue a:visited, #blue {
-    color: #9df;
+pre.blue,
+pre.blue a,
+pre.blue a:active,
+pre.blue a:visited,
+#blue {
+  color: #9df;
 }
 
 pre.blue a:hover {
-    color: #6ac;
+  color: #6ac;
 }
 
-pre.green, pre.green a, pre.green a:active, pre.green a:visited, #green {
-    color: #6f6;
+pre.green,
+pre.green a,
+pre.green a:active,
+pre.green a:visited,
+#green {
+  color: #6f6;
 }
 
 pre.green a:hover {
-    color: #3c3;
+  color: #3c3;
 }
 
-pre.amber, pre.amber a, pre.amber a:active, pre.amber a:visited, #amber {
-    color: #ffb400;
+pre.amber,
+pre.amber a,
+pre.amber a:active,
+pre.amber a:visited,
+#amber {
+  color: #ffb400;
 }
 
 pre.amber a:hover {
-    color: #cc8100;
+  color: #cc8100;
 }
 
-pre.rgb-red, pre.rgb-red a, pre.rgb-red a:active, pre.rgb-red a:visited, #rgb-red {
-    color: #f00;
+pre.rgb-red,
+pre.rgb-red a,
+pre.rgb-red a:active,
+pre.rgb-red a:visited,
+#rgb-red {
+  color: #f00;
 }
 
 pre.rgb-red a:hover {
-    color: #c00;
+  color: #c00;
 }
 
-pre.rgb-green, pre.rgb-green a, pre.rgb-green a:active, pre.rgb-green a:visited, #rgb-green {
-    color: #0f0;
+pre.rgb-green,
+pre.rgb-green a,
+pre.rgb-green a:active,
+pre.rgb-green a:visited,
+#rgb-green {
+  color: #0f0;
 }
 
 pre.rgb-green a:hover {
-    color: #0c0;
+  color: #0c0;
 }
 
-pre.rgb-blue, pre.rgb-blue a, pre.rgb-blue a:active, pre.rgb-blue a:visited, #rgb-blue {
-    color: #00f;
+pre.rgb-blue,
+pre.rgb-blue a,
+pre.rgb-blue a:active,
+pre.rgb-blue a:visited,
+#rgb-blue {
+  color: #00f;
 }
 
 pre.rgb-blue a:hover {
-    color: #00c;
+  color: #00c;
 }
