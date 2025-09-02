@@ -109,6 +109,10 @@ pre.white a:hover {
   color: #ccc;
 }
 
+pre.white img {
+  filter: none;
+}
+
 #blue,
 pre.blue,
 pre.blue a,
@@ -119,6 +123,10 @@ pre.blue a:visited {
 
 pre.blue a:hover {
   color: #6ac;
+}
+
+pre.blue img {
+  filter: brightness(.8) sepia(1) hue-rotate(160deg) saturate(3) contrast(80%) grayscale(20%);
 }
 
 #green,
@@ -133,6 +141,10 @@ pre.green a:hover {
   color: #3c3;
 }
 
+pre.green img {
+  filter: brightness(.8) sepia(1) hue-rotate(90deg) saturate(4) contrast(80%);
+}
+
 #amber,
 pre.amber,
 pre.amber a,
@@ -143,6 +155,10 @@ pre.amber a:visited {
 
 pre.amber a:hover {
   color: #cc8100;
+}
+
+pre.amber img {
+  filter: brightness(.8) sepia(1) hue-rotate(0deg) saturate(5) contrast(80%);
 }
 
 #rgb-red,
@@ -157,6 +173,10 @@ pre.rgb-red a:hover {
   color: #c00;
 }
 
+pre.rgb-red img {
+  filter: brightness(.8) sepia(1) hue-rotate(315deg) saturate(5);
+}
+
 #rgb-green,
 pre.rgb-green,
 pre.rgb-green a,
@@ -169,6 +189,10 @@ pre.rgb-green a:hover {
   color: #0c0;
 }
 
+pre.rgb-green img {
+  filter: brightness(.8) sepia(1) hue-rotate(90deg) saturate(5);
+}
+
 #rgb-blue,
 pre.rgb-blue,
 pre.rgb-blue a,
@@ -179,4 +203,8 @@ pre.rgb-blue a:visited {
 
 pre.rgb-blue a:hover {
   color: #00c;
+}
+
+pre.rgb-blue img {
+  filter: brightness(.8) sepia(1) hue-rotate(180deg) saturate(5);
 }
