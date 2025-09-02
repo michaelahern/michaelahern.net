@@ -126,7 +126,7 @@ pre.blue a:hover {
 }
 
 pre.blue img {
-  filter: brightness(.8) sepia(1) hue-rotate(160deg) saturate(3) contrast(80%) grayscale(20%);
+  filter: brightness(75%) sepia(100%) hue-rotate(165deg) saturate(250%) contrast(90%) grayscale(25%);
 }
 
 #green,
@@ -142,7 +142,7 @@ pre.green a:hover {
 }
 
 pre.green img {
-  filter: brightness(.8) sepia(1) hue-rotate(90deg) saturate(4) contrast(80%);
+  filter: brightness(80%) sepia(100%) hue-rotate(70deg) saturate(300%) contrast(90%);
 }
 
 #amber,
@@ -158,7 +158,7 @@ pre.amber a:hover {
 }
 
 pre.amber img {
-  filter: brightness(.8) sepia(1) hue-rotate(0deg) saturate(5) contrast(80%);
+  filter: brightness(75%) sepia(100%) hue-rotate(345deg) saturate(480%) contrast(95%)
 }
 
 #rgb-red,
@@ -174,7 +174,7 @@ pre.rgb-red a:hover {
 }
 
 pre.rgb-red img {
-  filter: brightness(.8) sepia(1) hue-rotate(315deg) saturate(5);
+  filter: brightness(80%) sepia(100%) hue-rotate(315deg) saturate(500%);
 }
 
 #rgb-green,
@@ -190,7 +190,7 @@ pre.rgb-green a:hover {
 }
 
 pre.rgb-green img {
-  filter: brightness(.8) sepia(1) hue-rotate(90deg) saturate(5);
+  filter: brightness(70%) sepia(100%) hue-rotate(90deg) saturate(450%);
 }
 
 #rgb-blue,
@@ -206,5 +206,5 @@ pre.rgb-blue a:hover {
 }
 
 pre.rgb-blue img {
-  filter: brightness(.8) sepia(1) hue-rotate(180deg) saturate(5);
+  filter: brightness(80%) sepia(100%) hue-rotate(180deg) saturate(500%);
 }
