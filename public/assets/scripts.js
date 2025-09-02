@@ -25,3 +25,7 @@ document.getElementById('rgb-green').onclick = function () {
 document.getElementById('rgb-blue').onclick = function () {
   document.getElementsByTagName('pre')[0].className = 'rgb-blue';
 };
+
+document.getElementById('slopes').onclick = function () {
+  document.getElementById('slopes-img').classList.toggle('show-img');
+};
