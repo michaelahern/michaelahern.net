@@ -1,0 +1,9 @@
+{
+  "enableAllProjectMcpServers": true,
+  "permissions": {
+    "allow": [
+      "mcp__Cloudflare_Docs__*",
+      "mcp__GitHub__*"
+    ]
+  }
+}

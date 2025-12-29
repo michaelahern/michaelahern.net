@@ -1,5 +1,5 @@
 {
-  "servers": {
+  "mcpServers": {
     "Cloudflare Docs": {
       "type": "http",
       "url": "https://docs.mcp.cloudflare.com/mcp"
@@ -8,7 +8,7 @@
       "type": "http",
       "url": "https://api.githubcopilot.com/mcp",
       "headers": {
-        "Authorization": "Bearer ${env:GITHUB_TOKEN}",
+        "Authorization": "Bearer ${GITHUB_TOKEN}",
         "X-MCP-Readonly": "true"
       }
     }
