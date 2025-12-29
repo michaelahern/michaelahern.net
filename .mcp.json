@@ -3,14 +3,6 @@
     "Cloudflare Docs": {
       "type": "http",
       "url": "https://docs.mcp.cloudflare.com/mcp"
-    },
-    "GitHub": {
-      "type": "http",
-      "url": "https://api.githubcopilot.com/mcp",
-      "headers": {
-        "Authorization": "Bearer ${GITHUB_TOKEN}",
-        "X-MCP-Readonly": "true"
-      }
     }
   }
 }
